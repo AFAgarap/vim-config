@@ -20,3 +20,4 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let NERDTreeMapOpenInTab='<ENTER>'
 let NERDTreeMapActivateNode='v'
 autocmd BufWinEnter * NERDTreeMirror
+colorscheme ir_black
