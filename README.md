@@ -12,6 +12,7 @@ Install vim-irblack
 Go to bundle directory to clone the vim-irblack repo.
 
 ```buildoutcfg
+$ mkdir -p ~/.vim/bundle
 $ cd ~/.vim/bundle
 $ git clone https://github.com/wesgibbs/vim-irblack
 ```
