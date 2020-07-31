@@ -41,3 +41,5 @@ let NERDTreeMapActivateNode='v'
 autocmd BufWinEnter * NERDTreeMirror
 
 set noshowmode
+set updatetime=100
+let g:gitgutter_enabled = 1
