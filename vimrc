@@ -17,7 +17,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
 Plugin 'Vimjas/vim-python-pep8-indent'
-
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
