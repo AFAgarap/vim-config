@@ -15,12 +15,6 @@ endif
 " => Turn persistent undo on
 "    means that you can undo even when you close a buffer/VIM
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" try
-"     mkdir -p ~/.vim_runtime/temp_dirs/undodir
-"     set undofile
-"     set undodir=~/.vim_runtime/temp_dirs/undodir
-" catch
-" endtry
 
 " guard for distributions lacking the 'persistent_undo' feature.
 if has('persistent_undo')
