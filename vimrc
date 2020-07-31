@@ -27,6 +27,13 @@ filetype plugin indent on    " required
 set number
 nnoremap <buffer> <F9> :exec '!python3' shellescape(@%, 1)<cr>
 
+source ~/.vim_runtime/airline.vim
+source ~/.vim_runtime/basic.vim
+source ~/.vim_runtime/extended.vim
+source ~/.vim_runtime/file_types.vim
+source ~/.vim_runtime/plugin_config.vim
+source ~/.vim_runtime/syntastic.vim
+
 autocmd vimenter * NERDTree
 autocmd vimenter * wincmd p
 
