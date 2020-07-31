@@ -39,3 +39,5 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 let NERDTreeMapOpenInTab='<ENTER>'
 let NERDTreeMapActivateNode='v'
 autocmd BufWinEnter * NERDTreeMirror
+
+set noshowmode
