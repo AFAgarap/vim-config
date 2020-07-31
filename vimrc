@@ -24,3 +24,4 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 set number
+nnoremap <buffer> <F9> :exec '!python3' shellescape(@%, 1)<cr>
