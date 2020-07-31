@@ -30,4 +30,3 @@ colorscheme ir_black
 set textwidth=79  " lines longer than 79 columns will be broken
 set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/BACKSPACE
 set shiftround    " round indent to multiple of 'shiftwidth'
-set smartindent    " align the new line indent with the previous line
