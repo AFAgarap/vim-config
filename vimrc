@@ -4,8 +4,6 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -34,20 +32,7 @@ source ~/.vim_runtime/extended.vim
 source ~/.vim_runtime/file_types.vim
 source ~/.vim_runtime/plugin_config.vim
 source ~/.vim_runtime/syntastic.vim
-
-autocmd vimenter * NERDTree
-autocmd vimenter * wincmd p
-
-" How can I close vim if the only window left open is a NERDTree?
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-
-" How can I open NERDTree automatically when vim starts up on opening a directory?
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
-
-let NERDTreeMapOpenInTab='<ENTER>'
-let NERDTreeMapActivateNode='v'
-autocmd BufWinEnter * NERDTreeMirror
+source ~/.vim_runtime/nerdtree.vim
 
 set noshowmode
 set updatetime=100
