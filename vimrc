@@ -19,6 +19,7 @@ Plugin 'preservim/nerdtree'
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-syntastic/syntastic'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
