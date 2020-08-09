@@ -33,6 +33,7 @@ source ~/.vim_runtime/extended.vim
 source ~/.vim_runtime/file_types.vim
 source ~/.vim_runtime/plugin_config.vim
 source ~/.vim_runtime/syntastic.vim
+source ~/.vim_runtime/fern.vim
 " source ~/.vim_runtime/nerdtree.vim
 
 set encoding=UTF-8
@@ -43,5 +44,3 @@ set fillchars=""
 
 let g:dracula_colorterm = 0
 colorscheme dracula
-
-let g:fern#renderer = "nerdfont"
