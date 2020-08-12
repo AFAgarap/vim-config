@@ -10,7 +10,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'jiangmiao/auto-pairs'
-" Plugin 'preservim/nerdtree'
 Plugin 'lambdalisue/fern.vim'
 Plugin 'lambdalisue/fern-renderer-nerdfont.vim'
 Plugin 'lambdalisue/nerdfont.vim'
@@ -34,7 +33,6 @@ source ~/.vim_runtime/file_types.vim
 source ~/.vim_runtime/plugin_config.vim
 source ~/.vim_runtime/syntastic.vim
 source ~/.vim_runtime/fern.vim
-" source ~/.vim_runtime/nerdtree.vim
 
 set encoding=UTF-8
 set noshowmode
