@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Cloning vim configuration..."
 git clone https://github.com/afagarap/vim-config ~/vim-config
