@@ -13,6 +13,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'lambdalisue/fern.vim'
 Plugin 'lambdalisue/fern-renderer-nerdfont.vim'
 Plugin 'lambdalisue/nerdfont.vim'
+Plugin 'lambdalisue/glyph-palette.vim'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'airblade/vim-gitgutter'
