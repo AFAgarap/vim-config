@@ -10,6 +10,7 @@ echo "Installing flake8..."
 sudo pip3 install flake8
 
 echo "Finalizing vim configuration setup..."
+cp -r ~/vim-config/vim_runtime ~/.vim_runtime
 cp ~/vim-config/.vimrc ~/.vimrc
 
 echo "Cleaning up..."
